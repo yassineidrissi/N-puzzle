@@ -220,7 +220,7 @@ def h_max_of_two(tiles: tuple[int, ...], goal_pos: dict[int, tuple[int, int]], n
 
 
 HEURISTICS = {
-    "manhattan": h_manhattan,
+    "manhattan": h_manhattan, 
     "misplaced": h_misplaced,
     "max":       h_max_of_two,
 }
